@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+@font-face {
+    font-family: MyFont;
+    src: local(微軟正黑體), url(fonts/fontawesome-webfont);
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (min-width:1025px) {}
+
+
+/* 黑背景*/
+
+body {
+    background-color: black;
+}
+
+.navbar-header {
+    height: 50px;
+    font-family: MyFont;
+}
+
+.navbar-brand {
+    font-family: MyFont;
+    font-size: 16px;
+    color: white;
+}
+
+a:link {
+    font-family: MyFont;
+}
+
+
+/* 大頭照*/
+
+.author {
+    width: 100px;
+    border-radius: 120px;
+}
+
+.author2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 120px;
+}
+
+.author_name {
+    float: left;
+    font-family: MyFont;
+    color: white;
+    padding-left: 120px;
+}
+
+
+/*大圖*/
+
+header {
+    margin-top: 80px;
+    width: 100%;
+    height: 710px;
+    background-color: #b8cec7;
+    background-image: url(img/camera.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.camera {
+    width: 60%;
+    margin: 50px;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.7;
+    font-family: MyFont;
+    color: white;
+    float: right;
+}
+
+.container_fluid {
+    width: 100%;
+}
+
+#section1 {
+    padding-top: 10px;
+    height: 1500px;
+    font-family: Myfont;
+    color: black;
+    background-color: #cecece;
+}
+
+#section2 {
+    padding-top: 10px;
+    height: 1500px;
+    font-family: Myfont;
+    color: black;
+    background-color: #bfbec1;
+}
+
+#section3 {
+    padding-top: 10px;
+    height: 1500px;
+    font-family: Myfont;
+    color: black;
+    background-color: #cecece;
+}
+
+#section4 {
+    padding-top: 10px;
+    height: 1500px;
+    font-family: Myfont;
+    color: black;
+    background-color: #bfbec1;
+}
+
+nav p {
+    float: left;
+}
+
+.photo {
+    float: right;
+    width: 300px;
+    border-radius: 20px;
+    border: 10px solid#58f8c2;
+}
+
+.V_photo {
+    padding-top: 50px;
+    width: 100%;
+}
+
+.txt {
+    padding-top: 200px;
+    font-family: MyFont;
+}
+
+footer {
+    height: 300px;
+    background-color: darkslategray;
+    text-align: center;
+}
+
+.f_container {
+    width: 60%;
+    padding-left: 300px;
+    padding-top: 50px;
+    text-align: left;
+    font-family: MyFont;
+    color: aquamarine;
+}
